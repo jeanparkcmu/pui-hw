@@ -1,0 +1,500 @@
+.logo{
+    width: 400px;
+    height: auto;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 40px; 
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.cart-title {
+    text-align: center; 
+    font-size: 40px; 
+    font-weight: 50;
+    margin-top: 20px; 
+}
+
+.hand-made {
+    text-align: center; 
+    font-size: 50px; 
+    font-weight: 100;
+    margin-top: 160px; 
+    font-weight: 100;
+}
+
+.line {
+    background-color: #333; 
+    height: 8px;
+    width: 1200px;
+    margin: 0;
+}
+
+.highlight {
+    background-color: #FFFF00;
+    color: #333;
+    border-radius: 5px; 
+}
+
+.og-roll {
+    width: 400px; 
+    height: 400px; 
+    margin: auto;
+    display: block; 
+    margin-top: 60px; 
+    border: 5px solid black;
+}
+
+.product1-info {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 0;
+}
+
+.product1-name {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 20px; 
+    margin-left: -20px;
+    text-decoration: underline; 
+}
+  
+.product1-price {
+    font-size: 40px;
+    color: #333;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: -290px;
+}
+
+.apple-cin {
+    width: 400px;
+    height: 400px; 
+    margin: auto;
+    display: block;
+    margin-top: 60px; 
+    border: 5px solid black; 
+}
+
+.product2-info {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 0;
+}
+
+.product2-name {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 20px; 
+    margin-left: -55px;
+    text-decoration: underline; 
+}
+  
+.product2-price {
+    font-size: 40px;
+    color: #333;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: -290px;
+}
+
+.raisin-cin {
+    width: 400px;
+    height: 400px; 
+    margin: auto;
+    display: block;
+    margin-top: 60px; 
+    border: 5px solid black; 
+}
+
+.product3-info {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 0;
+}
+
+.product3-name {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 20px; 
+    margin-left: -45px;
+    text-decoration: underline; 
+}
+  
+.product3-price {
+    font-size: 40px;
+    color: #333;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: -290px;
+}
+
+.walnut-cin {
+    width: 400px;
+    height: 400px; 
+    margin: auto;
+    display: block;
+    margin-top: 60px; 
+    border: 5px solid black; 
+}
+
+.product4-info {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 0;
+}
+
+.product4-name {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 20px; 
+    margin-left: -35px;
+    text-decoration: underline; 
+}
+  
+.product4-price {
+    font-size: 40px;
+    color: #333;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: -290px;
+}
+
+.double-choc {
+    width: 400px;
+    height: 400px; 
+    margin: auto;
+    display: block;
+    margin-top: 60px; 
+    border: 5px solid black; 
+}
+
+.product5-info {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 0;
+}
+
+.product5-name {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 20px; 
+    margin-left: -90px;
+    text-decoration: underline; 
+}
+  
+.product5-price {
+    font-size: 40px;
+    color: #333;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: -290px;
+}
+
+.straw-cin {
+    width: 400px;
+    height: 400px; 
+    margin: auto;
+    display: block;
+    margin-top: 60px; 
+    border: 5px solid black; 
+}
+
+.product6-info {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 0;
+}
+
+.product6-name {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 20px; 
+    text-decoration: underline; 
+    margin-left: -5px;
+}
+  
+.product6-price {
+    font-size: 40px;
+    color: #333;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: -310px;
+}
+
+.product1-section {
+    margin: auto;
+    width: 450px;
+    height: 600px;
+    display: block; 
+    border: none;
+    background-color: #ffffff; 
+}
+
+.product1-section:hover {
+    background-color: #f7f969;
+    cursor: pointer; 
+}
+
+.product2-section {
+    margin: auto;
+    width: 450px;
+    height: 600px;
+    display: block; 
+    border: none;
+    background-color: #ffffff; 
+}
+
+.product2-section:hover {
+    background-color: #f7f969;
+    cursor: pointer; 
+    outline: 2px solid transparent;
+}
+
+.product3-section {
+    margin: auto;
+    width: 450px;
+    height: 600px;
+    display: block; 
+    border: none;
+    background-color: #ffffff; 
+}
+
+.product3-section:hover {
+    background-color: #f7f969;
+    cursor: pointer; 
+    outline: 2px solid transparent;
+}
+
+.product4-section {
+    margin: auto;
+    width: 450px;
+    height: 600px;
+    display: block; 
+    border: none;
+    background-color: #ffffff; 
+}
+
+.product4-section:hover {
+    background-color: #f7f969;
+    cursor: pointer; 
+    outline: 2px solid transparent;
+}
+
+.product5-section {
+    margin: auto;
+    width: 450px;
+    height: 650px;
+    display: block; 
+    border: none;
+    background-color: #ffffff; 
+}
+
+.product5-section:hover {
+    background-color: #f7f969;
+    cursor: pointer; 
+    outline: 2px solid transparent;
+}
+
+.product6-section {
+    margin: auto;
+    width: 450px;
+    height: 650px;
+    display: block; 
+    border: none;
+    background-color: #ffffff; 
+}
+
+.product6-section:hover {
+    background-color: #f7f969;
+    cursor: pointer; 
+    outline: 2px solid transparent;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto; 
+}
+
+.detail-name {
+    text-align: center; 
+    font-size: 50px; 
+    font-weight: 100;
+    margin-top: 160px; 
+    font-weight: 100;
+}
+
+.og-detail {
+    width: 600px; 
+    height: 600px; 
+    margin: auto;
+    display: block; 
+    margin-top: 60px; 
+    border: 5px solid black;
+}
+
+.product-detail {
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 30px; 
+    text-align: center;
+}
+
+.glazing {
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 100px; 
+    margin-left: 430px;
+}
+
+#glazes_choice {
+    width: 340px;
+    height: 70px; 
+    margin: auto; 
+    display: block; 
+    font-size: 35px;
+    margin-top: 10px; 
+}
+
+.packsize {
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 50px; 
+    margin-left: 430px;
+}
+
+#packsize_choice {
+    width: 340px;
+    height: 70px; 
+    margin: auto; 
+    display: block; 
+    font-size: 35px;
+    margin-top: 10px; 
+}
+
+.price-detail {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 130px; 
+    margin-left: 440px;
+}
+
+.addtocart {
+    background-color: #ffffff;
+    color: #333;
+    width: 210px;
+    height: 60px;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    display: block; 
+    margin-left: auto;
+    margin-right: 430px;
+    margin-top: -50px;
+    font-size: 30px;
+    font-weight: 600; 
+}
+
+.shopping-cart {
+    text-align: center; 
+    font-size: 55px; 
+    font-weight: 100;
+    margin-top: 180px; 
+    font-weight: 100;
+}
+
+.og-roll-shopping {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 60px; 
+    border: 5px solid black; 
+}
+
+.remove {
+    text-align: center; 
+    font-size: 20px; 
+    margin-top: 10px; 
+    font-weight: 600;
+}
+
+.item1-desc {
+    font-size: 35px;
+    font-weight: 1;
+    margin-bottom: 0;
+    margin-top: 25px; 
+    text-align: center;
+}
+
+.item1-price {
+    font-size: 40px; 
+    text-align: center; 
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.doublec-shopping {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 100px; 
+    border: 5px solid black; 
+}
+
+.item2-desc {
+    font-size: 35px;
+    font-weight: 1;
+    margin-bottom: 0;
+    margin-top: 25px; 
+    text-align: center;
+}
+
+.item2-price {
+    font-size: 40px; 
+    text-align: center; 
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.miniline {
+    background-color: #333; 
+    height: 8px;
+    width: 800px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.total {
+    font-size: 40px; 
+    text-align: center; 
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.checkout {
+    background-color: #f7f969;
+    color: #333;
+    width: 210px;
+    height: 60px;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    display: block; 
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: 600; 
+    margin-top: 30px;
+    border: 5px solid black; 
+}
