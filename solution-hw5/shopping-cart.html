@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <head>
+    <link rel = "stylesheet" href = "css/style.css">
+    <script defer src = "cart.js"></script>
+  </head>
+
+    <body>
+        <div class = "header-container">
+            <a href = "index.html">
+              <img class = "logo" src = "assets/logo/logo-01.svg" alt="Logo">
+            </a>
+            <div class = "line"></div>
+            <div class = "categories-container">
+              <a href = "index.html">
+                <div class = "product-title">
+                  PRODUCTS
+                </div>
+              </a>
+              <a href = "shopping-cart.html">
+                <div class = "cart-title">
+                    <span class = "highlight">CART</span>
+                </div>
+              </a>
+            </div>
+        </div>  
+
+        <div class = "shopping">
+            Shopping cart
+        </div>
+        
+        <div class = "cart-item-container">
+        </div>
+
+        <template id = "cart-item-template">
+            <div class = "item-wrap-container">
+                <div class = "item-container">
+                    <div class = "image-container">
+                        <img class = "item-image" src = "" />
+                            <div class= "remove">
+                                Remove
+                            </div>
+                    </div>
+                    <div class = "item-info-container">
+                        <div class = "item-desc">
+                        </div>
+                        <div class = "item-price">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <div class= "miniline">
+        </div> 
+
+        <div class = "total-container">
+            <div class = "total">
+                Total:
+            </div>
+
+            <div class = "total-price">
+            </div>
+        </div>
+
+        <button class = "checkout">
+            Checkout
+        </button>
+
+    </body>
+
+</html>
