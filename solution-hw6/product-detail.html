@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <head>
+    <link rel = "stylesheet" href = "css/style.css">
+    <script defer src = "on-click.js"></script>
+    <script defer src = "rollsData.js"></script>
+    <script defer src = "update-detail.js"></script>
+    <script defer src = "cart.js"></script>
+  </head>
+  
+  <body>
+
+    <div class = "header-container">
+      <a href = "index.html">
+        <img class = "logo" src = "assets/logo/logo-01.svg" alt="Logo">
+      </a>
+      <div class = "line"></div>
+      <div class = "categories-container">
+        <a href = "index.html">
+          <div class = "product-title">
+            <span class = "highlight">PRODUCTS</span>
+          </div>
+        </a>
+        <a href = "shopping-cart.html">
+          <div class = "cart-title">
+            CART
+          </div>
+        </a>
+      </div>
+    </div>  
+
+    <div class = "cinna-roll">
+      Original cinnamon roll
+    </div>
+
+    <div class = "detail-container">
+      <img class = "og-detail" src = "assets/products/original-cinnamon-roll.jpg">
+      <div class = "right-detail-container">
+        <div class = "product-detail">
+          Customize our delicious, <br> handmade cinnamon roll to <br> your liking!
+        </div>
+
+        <div class = "options">
+          Glazing: 
+        </div>
+    
+        <select name = "glazings" id = "glazing_choice" onchange = "glazingChange(this)">
+        </select>
+        
+        <div class = "options">
+          Pack size: 
+        </div>
+    
+        <select name = "sizes" id = "size_choice" onchange = "packSizeChange(this)">
+        </select>
+    
+        <div class = "price-detail">
+          $ 2.49 
+        </div>
+    
+        <button class = "addtocart">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+  </body>
+</html>
