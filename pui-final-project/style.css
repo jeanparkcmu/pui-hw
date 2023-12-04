@@ -1,0 +1,210 @@
+html {
+    max-width: 1200px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}  
+
+a {
+    text-decoration: none;
+    color: inherit;
+    flex: 1 1 calc(33.333% - 20px);
+}
+
+.name {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px; 
+    color: white; 
+    margin-left: 55px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.work {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px; 
+    color: white; 
+    margin-left: 490px;
+    margin-top: -80px;
+    letter-spacing: 1px;
+}
+
+.projects {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px; 
+    color: white; 
+    margin-left: 660px;
+    margin-top: -76px; 
+    letter-spacing: 1px;
+}
+
+.github {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px; 
+    color: white; 
+    margin-left: 890px;
+    margin-top: -76px;
+    letter-spacing: 1px;
+}
+
+.information {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px; 
+    color: white; 
+    margin-left: 1090px;
+    margin-top: -76px;
+    letter-spacing: 2px;
+}
+
+
+.work-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-top: 70px;
+    width: 100%;
+}
+
+.aura-container {
+    display: flex; 
+    align-items: center; 
+    width: 60%; 
+}
+
+.aura-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; 
+}
+
+.aura {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.aura-title {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.aura-desc1 {
+    font-size: 20px;
+    color: white;
+}
+
+.aura-desc2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+}
+
+.work2-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-top: 70px;
+    width: 100%;
+}
+
+.cmu-container {
+    display: flex; 
+    align-items: center; 
+    width: 60%; 
+}
+
+.cmu-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; 
+}
+
+.cmu {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.cmu-title {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cmu-desc {
+    font-size: 20px;
+    color: white;
+}
+
+.project1-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.right-detail-container {
+    flex: 1; 
+    margin-right: 30px;
+}
+
+.project1-title {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.project1-detail {
+    font-size: 20px;
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+}
+
+.introduction {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.resume-logo {
+    width: 100px;
+    height: 140px;
+}
+
+.caption {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
