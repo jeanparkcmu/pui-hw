@@ -47,7 +47,7 @@ a {
 }
 
 /* flexbox styling for work container */
-.work-container, work2-container {
+.work-container, .work2-container {
     display: flex; 
     justify-content: center; 
     align-items: flex-start; 
