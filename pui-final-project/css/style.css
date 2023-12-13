@@ -8,6 +8,7 @@ body {
     background: linear-gradient(to right, black, gray, black);
     margin: 0;
 } 
+
 nav{
     z-index: 4;
     width: 100%;
@@ -22,11 +23,13 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .web-name{
     width: 30%;
     font-family: 'Titillium Web', sans-serif;
     font-size: 60px; 
 }
+
 .menu-items{
     width: 70%;
     display: flex;
@@ -60,6 +63,9 @@ a {
     letter-spacing: 2px;
 }
 
+.model-instruction{
+    letter-spacing: 2px;
+}
 
 .work-container {
     display: flex; 
@@ -227,6 +233,7 @@ a {
         font-family: 'Titillium Web', sans-serif;
         font-size: 30px; 
     }
+
     .menu-items{
         width: 70%;
         display: flex;
@@ -245,6 +252,7 @@ a {
         font-family: 'Titillium Web', sans-serif;
         font-size: 13px; 
     }
+
     .menu-items{
         width: 80%;
         display: flex;
@@ -255,16 +263,20 @@ a {
         font-size: 12px; 
         color: white; 
     }
+
     .info-container{
         margin-top: 80px;
     }
+
     .introduction{
         font-size: 16px;
         margin: 2px 8px;
     }
+
     .caption{
         font-size: 16px;
     }
+
     .project1-container, .project2-container {
         display: flex;
         justify-content: center;
@@ -273,12 +285,15 @@ a {
         flex-direction: column;
         align-items: center;
     }
+
     .aura-container {
         width: 90%; 
     }
+
     .cmu-container {
         width: 90%; 
     }
+
     .aura-title {
         font-size: 24px;
     }
@@ -290,6 +305,7 @@ a {
     .aura-desc2 {
         font-size: 16px;
     }
+
     .cmu-title {
         font-size: 24px;
     }
@@ -297,6 +313,7 @@ a {
     .cmu-desc {
         font-size: 16px;
     }
+    
     iframe{
         width: 350px;
     }
