@@ -1,14 +1,10 @@
-*{
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-}
-
+/* setting background design */
 body {
     background: linear-gradient(to right, black, gray, black);
     margin: 0;
 } 
 
+/* styling for navigation bar */
 nav{
     z-index: 4;
     width: 100%;
@@ -19,17 +15,21 @@ nav{
     margin: 16px 14px;
 } 
 
+/* styling for a tags */
 a {
     text-decoration: none;
     color: inherit;
 }
 
+/* styling for the name in navigation bar */
 .web-name{
     width: 30%;
     font-family: 'Titillium Web', sans-serif;
     font-size: 60px; 
+    color: white; 
 }
 
+/* styling for all the information tabs in navigation bar */
 .menu-items{
     width: 70%;
     display: flex;
@@ -41,33 +41,13 @@ a {
     color: white; 
 }
 
-.name {
-    color: white; 
-    letter-spacing: 1px;
-    font-weight: lighter;
-}
-
-.work {
+/* letter spacing for all navigation bar tabs */ 
+.name, .work, .projects, .github, .information {
     letter-spacing: 1px;
 }
 
-.projects {
-    letter-spacing: 1px;
-}
-
-.github {
-    letter-spacing: 1px;
-}
-
-.information {
-    letter-spacing: 2px;
-}
-
-.model-instruction{
-    letter-spacing: 2px;
-}
-
-.work-container {
+/* flexbox styling for work container */
+.work-container, work2-container {
     display: flex; 
     justify-content: center; 
     align-items: flex-start; 
@@ -75,13 +55,15 @@ a {
     width: 100%;
 }
 
-.aura-container {
+/* styling for aura container */
+.aura-container, .cmu-container {
     display: flex; 
     align-items: center; 
     width: 60%; 
 }
 
-.aura-text {
+/* styling for aura and cmu text container */
+.aura-text, .cmu-text {
     display: flex;
     flex-direction: column;
     margin-left: 20px; 
@@ -90,13 +72,15 @@ a {
              1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
-.aura {
+/* styling for images for aura, cmu, and profile */ 
+.aura, .cmu, .profile-image {
     width: 200px;
     height: 200px;
     border: 5px solid black;
 }
 
-.aura-title {
+/* styling for aura and cmu title */ 
+.aura-title, .cmu-title {
     font-size: 30px;
     color: white;
     font-weight: 600;
@@ -106,62 +90,25 @@ a {
              1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
-.aura-desc1 {
+/* styling for aura description part 1 and cmu description */
+.aura-desc1, .cmu-desc {
     font-size: 20px;
     color: white;
 }
 
+/* styling for aura description part 2*/
 .aura-desc2 {
     font-size: 20px;
     color: white;
     margin-top: 15px;
 }
 
-.work2-container {
-    display: flex; 
-    justify-content: center; 
-    align-items: flex-start; 
-    margin-top: 70px;
-    width: 100%;
-}
-
-.cmu-container {
-    display: flex; 
-    align-items: center; 
-    width: 60%; 
-}
-
-.cmu-text {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px; 
-    font-family: 'Rajdhani', sans-serif;
-    text-shadow: 4px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
-             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-}
-
-.cmu {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-}
-
-.cmu-title {
-    font-size: 30px;
-    color: white;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.cmu-desc {
-    font-size: 20px;
-    color: white;
-}
-
-.main-container {
+/* setting the main project container to flex */ 
+.main-project-container {
     display: flex; 
 }
 
+/* styling individual containers for each project */ 
 .project1-container, .project2-container {
     display: flex;
     justify-content: center; 
@@ -172,6 +119,7 @@ a {
     margin: 60px auto;
 }
 
+/* styling individual sub-containers for each project */ 
 .right-project1-container, .right-project2-container {
     font-family: 'Rajdhani', sans-serif;
     color: white;
@@ -181,6 +129,7 @@ a {
     margin-top: 10px;
 }
 
+/* styling container for personal information */ 
 .info-container {
     display: flex;
     flex-direction: column;
@@ -189,13 +138,8 @@ a {
     margin-top: 50px;
 }
 
-.profile-image {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-}
-
-.introduction {
+/* styling for introduction and caption underneath resume */
+.introduction, .caption {
     font-size: 20px;
     color: white;
     text-align: center;
@@ -204,6 +148,7 @@ a {
              1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
+/* styling for resume container */
 .resume-container {
     display: flex;
     flex-direction: column;
@@ -212,21 +157,14 @@ a {
     margin: 60px 0px;
 }
 
+/* styling for resume image (google docs logo) */ 
 .resume-logo {
     width: 100px;
     height: 140px;
     border: 5px solid black;
 }
 
-.caption {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin-top: 25px;
-    text-shadow: 3px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
-             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-}
-
+/* styling to make navigation bar responsive */ 
 @media (max-width: 1200px) {
     .web-name{
         width: 30%;
