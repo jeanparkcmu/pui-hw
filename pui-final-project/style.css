@@ -1,61 +1,62 @@
-html {
-    max-width: 1200px;
+*{
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
 }
 
 body {
-    background-color: black;
+    background: linear-gradient(to right, black, gray, black);
     margin: 0;
-}  
+} 
+nav{
+    z-index: 4;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 16px 14px;
+} 
 
 a {
     text-decoration: none;
     color: inherit;
-    flex: 1 1 calc(33.333% - 20px);
+}
+.web-name{
+    width: 30%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px; 
+}
+.menu-items{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px; 
+    color: white; 
 }
 
 .name {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 60px; 
     color: white; 
-    margin-left: 55px;
-    margin-top: 20px;
     letter-spacing: 1px;
     font-weight: lighter;
 }
 
 .work {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 50px; 
-    color: white; 
-    margin-left: 490px;
-    margin-top: -80px;
     letter-spacing: 1px;
 }
 
 .projects {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 50px; 
-    color: white; 
-    margin-left: 660px;
-    margin-top: -76px; 
     letter-spacing: 1px;
 }
 
 .github {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 50px; 
-    color: white; 
-    margin-left: 890px;
-    margin-top: -76px;
     letter-spacing: 1px;
 }
 
 .information {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 50px; 
-    color: white; 
-    margin-left: 1090px;
-    margin-top: -76px;
     letter-spacing: 2px;
 }
 
@@ -78,6 +79,9 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: 20px; 
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 4px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .aura {
@@ -91,6 +95,9 @@ a {
     color: white;
     font-weight: 600;
     margin-bottom: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 4px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .aura-desc1 {
@@ -122,6 +129,9 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: 20px; 
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 4px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .cmu {
@@ -142,29 +152,27 @@ a {
     color: white;
 }
 
-.project1-container {
+.main-container {
     display: flex; 
-    justify-content: space-between; 
-    align-items: flex-start; 
-    margin-top: 60px;
-    margin-left: 20px;
 }
 
-.right-detail-container {
-    flex: 1; 
-    margin-right: 30px;
+.project1-container, .project2-container {
+    display: flex;
+    justify-content: center; 
+    width: 80%; 
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
 }
 
-.project1-title {
-    font-size: 30px;
+.right-project1-container, .right-project2-container {
+    font-family: 'Rajdhani', sans-serif;
     color: white;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.project1-detail {
-    font-size: 20px;
-    color: white;
+    flex: 1;
+    text-shadow: 3px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    margin-top: 10px;
 }
 
 .info-container {
@@ -173,12 +181,12 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-left: 300px;
 }
 
 .profile-image {
     width: 200px;
     height: 200px;
+    border: 5px solid black;
 }
 
 .introduction {
@@ -186,6 +194,8 @@ a {
     color: white;
     text-align: center;
     margin-top: 25px;
+    text-shadow: 3px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .resume-container {
@@ -193,13 +203,13 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
-    margin-left: 300px;
+    margin: 60px 0px;
 }
 
 .resume-logo {
     width: 100px;
     height: 140px;
+    border: 5px solid black;
 }
 
 .caption {
@@ -207,4 +217,88 @@ a {
     color: white;
     text-align: center;
     margin-top: 25px;
+    text-shadow: 3px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+@media (max-width: 1200px) {
+    .web-name{
+        width: 30%;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 30px; 
+    }
+    .menu-items{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 20px; 
+        color: white; 
+    }
+}
+
+@media (max-width: 600px) {
+    .web-name{
+        width: 18%;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 13px; 
+    }
+    .menu-items{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 12px; 
+        color: white; 
+    }
+    .info-container{
+        margin-top: 80px;
+    }
+    .introduction{
+        font-size: 16px;
+        margin: 2px 8px;
+    }
+    .caption{
+        font-size: 16px;
+    }
+    .project1-container, .project2-container {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aura-container {
+        width: 90%; 
+    }
+    .cmu-container {
+        width: 90%; 
+    }
+    .aura-title {
+        font-size: 24px;
+    }
+    
+    .aura-desc1 {
+        font-size: 16px;
+    }
+    
+    .aura-desc2 {
+        font-size: 16px;
+    }
+    .cmu-title {
+        font-size: 24px;
+    }
+    
+    .cmu-desc {
+        font-size: 16px;
+    }
+    iframe{
+        width: 350px;
+    }
+    
 }

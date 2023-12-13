@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8"> 
-  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
     <link rel = "stylesheet" href = "./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <a href = "index.html">
-        <div class = "name">
-            Jean Park 
+<body>
+
+    <nav class="web-nav">
+            
+        <div class="web-name">
+            <div class="name">
+                <a href="index.html">
+                    Jean Park
+                </a>
+            </div>
         </div>
-    </a>
-
-    <a href = "workpage.html">
-        <div class = "work">
-            Work
-        </div>
-    </a>
-
-    <a href = "projectspage.html">
-        <div class = "projects">
-            Projects
-        </div>
-    </a>
-
-    <a href = "https://github.com/parkjean03">
-        <div class = "github">
-            GitHub
-        </div>
-    </a>
-
-    <a href = "informationpage.html">
-        <div class = "information">
-            Information
-        </div>
-    </a>   
-
-    <div class = project1-container>
-        <video src="/project-assets/port-piece.mp4" width= "500" controls>
-            Video not supported
-        </video>
-        <div class = "right-project1-container">
-            <div class = "project1-title">
-              For You: Reducing Algorithmic Bias
+    
+            
+        <div class="menu-items">
+    
+            <div class="work">
+                <a href="workpage.html">
+                    Work
+                </a>
             </div>
     
-            <div class = "project1-detail">
-                In this 8 minute video, we will explore the algorithmic bias of social media <br>
-                and how we could reimagine Instagram to increase user auditing and control. <br>
-                <br>
-                This video will cover the 10 week journey of conducting various methods <br>
-                of user research to provide users with a design to address the problem. 
+            <div class="projects">
+                <a href="projectspage.html">
+                    Projects
+                </a>
+            </div>
+       
+            <div class="github">
+                <a href="https://github.com/parkjean03">
+                    GitHub
+                </a>
             </div>
         
-    </div>
+            <div class="information">
+                <a href="informationpage.html">
+                    Information
+                </a>
+            </div>
+    
+        </div>
+            
+    </nav>   
+
+    <div class = "main-container">
+        <div class = "project1-container">
+            <iframe width = "500" height = "300" 
+                src = "https://www.youtube.com/embed/W3FNBLV17xI"></iframe>
+            <div class = "right-project1-container">
+                <div class = "project1-title">
+                For You: Reducing Algorithmic Bias
+                </div>
+        
+                <div class = "project1-detail">
+                    In this 8 minute video, we will explore the algorithmic bias of social media <br>
+                    and how we could reimagine Instagram to increase user auditing and control. <br>
+                    <br>
+                    This video will cover the 10 week journey of conducting various methods <br>
+                    of user research to provide users with a design to address the problem. 
+                </div>
+        </div>
+
+        <div class = "project2-container">
+            <iframe width = "500" height = "300"
+                src = "https://www.youtube.com/embed/vOMUOrV4nqw"></iframe>
+            <div class = "right-project2-container">
+                <div class = "project2-title">
+                    Demonstration of Conversational UI 
+                </div>
+                
+                <div class = "project2-detail">
+                    In this short 7 minute video, my team and I will show our implementation of <br>
+                    Voiceflow to demonstrate our Conversational User Interface for navigation. <br>
+                </div>
+            </div>
+        </div>
+    </div>  
   
-  </body>
+</body>
+
 </html>
     

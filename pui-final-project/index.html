@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8"> 
-  <head>
-    <link rel = "stylesheet" href = "./style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
-
-    <script type = "importmap">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+    <script type="importmap">
         {
             "imports": {
                 "three": "https://unpkg.com/three@0.139.2/build/three.module.js",
@@ -16,43 +18,51 @@
             }
         }
     </script>
+</head>
 
-  </head>
-
-  <body>
-
-    <a href = "index.html">
-        <div class = "name">
-            Jean Park 
+<body>
+    
+    <nav class="web-nav">
+        <div class="web-name">
+            <div class="name">
+                <a href="index.html">
+                    Jean Park
+                </a>
+    
+            </div>
         </div>
-    </a>
+        
+        <div class="menu-items">
 
-    <a href = "workpage.html">
-        <div class = "work">
-            Work
+            <div class="work">
+                <a href="workpage.html">
+                    Work
+                </a>
+            </div>
+        
+
+            <div class="projects">
+                <a href="projectspage.html">
+                    Projects
+                </a>
+            </div>
+    
+            <div class="github">
+                <a href="https://github.com/parkjean03">
+                    GitHub
+                </a>
+            </div>
+        
+            <div class="information">
+                <a href="informationpage.html">
+                    Information
+                </a>
+            </div>
+
         </div>
-    </a>
+    </nav>
 
-    <a href = "projectspage.html">
-        <div class = "projects">
-            Projects
-        </div>
-    </a>
+    <script type="module" src="./model.js"></script>
 
-    <a href = "https://github.com/parkjean03">
-        <div class = "github">
-            GitHub
-        </div>
-    </a>
-
-    <a href = "informationpage.html">
-        <div class = "information">
-            Information
-        </div>
-    </a>
-
-    <script type = "module" src = "./model.js"></script>
-  </body>
-
+</body>
 </html>
-
